@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    font-style: normal;
+} 
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 600px;
+    min-height: 1161px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: url(https://images.unsplash.com/photo-1616645500344-209060c84970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    width: 600px;
+    height: 167px;
+    background-size: cover;
+    background-position: 0% 65%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.menu-item-container {
+    border-bottom: 1px solid #D2D2D2;
+    width: 508px;
+    height: 140px;
+    display: flex;
+    margin: 45px auto 0 auto;
+    
+}
+
+.emoji {
+    opacity: 72%;
+    font-size: 79px;
+    line-height: 90px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+    margin-bottom: 51px;
+    margin-right: 31px;
+}
+
+.item-detail {
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ingredients {
+    margin-top: 0.8px;
+    color: #8B8B8B;
+
+}
+
+.add-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    background: none;
+    
+}
+
+.checkout-section {
+    width: 508px;
+    height: 319px;
+    display: none;
+    flex-direction: column;
+    margin: 45px auto 53px auto;
+}
+
+.order-title {
+    margin-bottom: 64px;
+    text-align: center;
+ }
+
+.divider {
+    width: 504px;
+    border-top: 2px solid #393333;
+    margin: 28px auto 14px auto;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 53px;
+    
+}
+
+.complete-order-btn {
+    width: 508px;
+    min-height: 60px;
+    background: #16DB99;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.order-item {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.remove-order-btn {
+    font-size: 12px;
+    line-height: 24px;
+    color: #BBBBBB;
+    background: none;
+    border: none;
+}
+
+.payment-modal-section{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3.9px;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: white;
+    width: 524px;
+    height: 543px;
+    line-height: 31px;
+}
+
+.modal-close-btn {
+    border: none;
+    background: none;
+    margin: 15px 10px 0 auto;
+    font-size: 20px;
+    line-height: 20px;
+}
+.payment-title {
+    display: flex;
+    width: 305px;
+    height: 41px;
+    margin: 12.32px auto 22.85px auto;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.input-box {
+    width: 476px;
+    height: 71.3px;
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+    box-sizing: border-box;
+    margin: 23.22px auto 0 auto;
+    padding-left: 26.53px;
+}
+
+.pay-btn {
+    width: 475.91px;
+    height: 71.3px;
+    margin: 46.43px auto 0 auto;
+    background: #16DB99;
+    color: white;
+    border-radius: 3.88991px;
+    border: none;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 700;
+    
+}
+
+.thank-you-note {
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-right {
+    margin: auto 0 auto auto;
+}
+
+.align-bottom {
+    margin: auto auto 0 auto;
+}
+
+/* typography */
+h1 {
+    font-size: 39px;
+    line-height: 24px;
+    margin-top: 46px;
+    margin-left: 46px;
+    margin-bottom: 19px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 17px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 22.42px;
+    line-height: 14px;
+    margin-left: 46px;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.complete-order-btn,
+.remove-order-btn,
+.modal-close-btn,
+.payment-title,
+.input-box,
+.pay-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* display */
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
